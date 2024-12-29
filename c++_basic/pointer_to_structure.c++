@@ -18,4 +18,5 @@ int main()
     struct Rectangle *r = new Rectangle(20, 10);
     cout << r->length << endl
          << r->breadth << endl;
+    delete r;
 }
