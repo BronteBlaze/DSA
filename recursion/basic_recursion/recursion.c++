@@ -5,8 +5,8 @@ void recursiveFunction(int x)
 {
     if (x > 0)
     {
-        cout << x;
         recursiveFunction(x - 1);
+        cout << x;
     }
 }
 
