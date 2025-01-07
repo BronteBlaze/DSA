@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Sum of First N natural Numbers using recursion
 int naturalRecursion(int n)
 {
     if (n < 0)
